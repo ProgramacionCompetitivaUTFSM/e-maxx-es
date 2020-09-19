@@ -2,4 +2,4 @@
 
   - [Quick Start](quickstart.md)
 - Álgebra
-	- [Exponenciación Binaria](./algebra/fundamentos/exponenciacion-binaria.md)
+	- [Exponenciación Binaria](./algebra/exponenciacion-binaria.md)
