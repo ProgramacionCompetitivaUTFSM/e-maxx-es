@@ -12,7 +12,7 @@
 > 	* Variación de la exponenciación binaria: Aplicar la operación módulo a la multiplicación de 2 números
 > * Problemas para practicar
 
-La Exponenciación Binaria (también conocida como exponenciación por cuadrados) es un truco que permite calcular $a^{n}$ utilizando sólo $\mathcal{O}(log (n))$ multiplicaciones (en vez de $\mathcal{O}(n)$ multiplicaciones utilizando el enfoque tradicional).
+La Exponenciación Binaria (también conocida como exponenciación por cuadrados) es un truco que permite calcular $a^{n}$ utilizando sólo $\mathcal{O}(log (n))$ multiplicaciones (en vez de $\mathcal{O}(n)$ con el enfoque tradicional).
 
 Esta técnica tiene importantes aplicaciones en áreas no relacionadas con la aritmética, dado que puede ser utilizada con cualquier operación que cumpla con la propiedad de **asociatividad**:
 
