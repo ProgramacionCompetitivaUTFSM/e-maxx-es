@@ -75,6 +75,21 @@ long long binpow(long long a, long long b) {
 }
 ```
 
+Éste segundo enfoque cumple el mismo objetivo sin recursión. Éste computa todas las potencias en un bucle y multiplica las que tienen encendido su bit correspondiente en $n$. Si bien ambos enfoques tienen la misma complejidad, este último será más rápido en la practica pues no tenemos que lidiar con la sobrecarga de las llamadas recursivas
+
+```cpp
+long long binpow(long long a, long long b) {
+    long long res = 1;
+    while (b > 0) {
+        if (b & 1)
+            res = res * a;
+        a = a * a;
+        b >>= 1;
+    }
+    return res;
+}
+```
+
 <div align="center">$
 \begin{pmatrix}
 a_{11} & a_ {12} & a_ {13} & a_ {14} \\
@@ -116,3 +131,12 @@ $</div>
 ### Variación de la exponenciación binaria: Aplicar la operación módulo a la multiplicación de 2 números
 
 ## Problemas para practicar
+
+* [UVa 1230 - MODEX](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=3671)
+* [UVa 374 - Big Mod](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=310)
+* [UVa 11029 - Leading and Trailing](https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1970)
+* [Codeforces - Parking Lot](http://codeforces.com/problemset/problem/630/I)
+* [SPOJ - The last digit](http://www.spoj.com/problems/LASTDIG/)
+* [SPOJ - Locker](http://www.spoj.com/problems/LOCKER/)
+* [LA - 3722 Jewel-eating Monsters](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1723)
+* [SPOJ - Just add it](http://www.spoj.com/problems/ZSUM/)

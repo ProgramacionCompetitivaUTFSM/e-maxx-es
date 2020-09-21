@@ -1,2 +1,2 @@
 - Álgebra
-	- [Exponenciación Binaria](./algebra/exponenciacion-binaria.md)
+	- [Exponenciación Binaria](/algebra/exponenciacion-binaria.md)
