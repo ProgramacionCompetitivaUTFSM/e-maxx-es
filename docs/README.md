@@ -12,10 +12,14 @@ Atte. MrYhatoh
 
 > Updates
 
-* Capitúlo de introducción en proceso
+* Capítulo de introducción en proceso
+	* 17-01-2022 - Se añadió una sección de ejemplo para un primer problema y se movió la subsección que había en ¿Qué es la ProgComp? de problemas a una nueva sección de la introducción
+	* 17-01-2022 - Se añadieron detalles respecto a los lenguajes de programación C++ y Python
+	* 13-01-2022 - Se desarrollo capítulo que intenta explicar lo que es la prog comp y por donde iniciarse 
 
-> TODO
+> TO DO
 
-* Estructuras de datos líneales
+* Revisar la introducción por fallas
+* Estructuras de datos líneales 
 * Estructuras de datos no líneales
 * Y más

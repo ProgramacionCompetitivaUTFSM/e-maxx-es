@@ -57,17 +57,12 @@ También, en algunos jueces te indican cuantó es el tiempo límite de cada prob
 
 Como se indicó más arriba, se puede elegir que lenguaje utilizar para poder resolver un problema. Entre los más conocidos están: C++, Java y Python. El lenguaje más eficiente sería C++, por su sintaxis y rapidez. Java puede hacer la pelea a C++, pero su sintaxis no es tan cómoda para este tipo de disciplina. Python es un lenguaje lento, de hecho a veces no te aseguran que con Python se pueda resolver el problema por su lentitud, pero tiene una ventaja: es muy rápido de escribir; cómo el tiempo es algo relevante en estas competencias, a veces Python puede ser útil para resolver problemas fáciles, ya que la sintaxis es simple.
 
-## Para iniciarse
+**DISCLAIMER: todos los códigos usados en está página estarán en C++ o Python (en el peor de los casos).**
 
-Como recomendación, empiecen a subir problemas sencillos a los jueces para irse acostumbrando a la mécanica. Aquí les dejamos una lista de problemas para que comiencen a subir cosas:
+### C++
 
-* [https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=607&page=show_problem&problem=3710](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=607&page=show_problem&problem=3710)
-* [https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=607&page=show_problem&problem=3834](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=607&page=show_problem&problem=3834)
-* [https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=607&page=show_problem&problem=2827](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=607&page=show_problem&problem=2827)
-* [https://codeforces.com/problemset/problem/443/A](https://codeforces.com/problemset/problem/443/A)
-* [https://codeforces.com/problemset/problem/520/A](https://codeforces.com/problemset/problem/520/A)
-* [https://codeforces.com/contest/1339/problem/A](https://codeforces.com/contest/1339/problem/A)
-* [https://codeforces.com/contest/1547/problem/A](https://codeforces.com/contest/1547/problem/A)
-* [https://codeforces.com/contest/1530/problem/B](https://codeforces.com/contest/1530/problem/B)
+Para aprender lo básico de C++ revisar el siguiente enlace de w3schools: [https://www.w3schools.com/CPP/default.asp](https://www.w3schools.com/CPP/default.asp). Cosas importantes a retener de lo básico de C++ son los tipos de datos, por ejemplo el rango de números de un `int`, `long long int`, `unsigned int`, etc. Luego, también existe lo que la librería STL, la cual permite el uso de estructuras de datos eficientes, que serán estudiadas en los cápitulos de EDD Lineales y EDD no Lineales.
 
+### Python
 
+En general, Python es un lenguaje bastante simple en sintáxis y se enseña en gran parte de las universidad que tienen programación en primer año como parte de plan común, de todas formas si es que necesitan algo podrían consultar el siguiente enlace de w3schools: [https://www.w3schools.com/python/default.asp](https://www.w3schools.com/python/default.asp). En este enlace podrán aprender lo básico de Python, al igual que en C++ es importante saber los tipos de datos, también las herramientas que posee el lenguaje: listas, tuplas, diccionarios, etc.
