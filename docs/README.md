@@ -14,7 +14,7 @@ Atte. MrYhatoh
 
 * Capítulo de introducción en proceso
 	* 13-01-2022 - Se desarrollo capítulo que intenta explicar lo que es la prog comp y por donde iniciarse 
-	* 17-01-2022 Se añadieron detalles respecto a los lenguajes de programación C++ y Python
+	* 17-01-2022 - Se añadieron detalles respecto a los lenguajes de programación C++ y Python
 
 > TO DO
 

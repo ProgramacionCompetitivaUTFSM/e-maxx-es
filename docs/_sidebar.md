@@ -1,5 +1,7 @@
 - Introducción
 	- [¿Qué es la ProgComp?](/introduccion/que_es_cp.md)
+	- [Nuestro primer problema!!](/introduccion/primer_problema.md)
+	- [Más problemas!!!](/introduccion/mas_problemas.md)
 - Álgebra
 	- [Exponenciación Binaria](/algebra/exponenciacion-binaria.md)
 	- [Algoritmo Euclidiano](/algebra/algoritmo-euclidiano.md)
