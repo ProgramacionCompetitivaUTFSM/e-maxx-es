@@ -66,18 +66,3 @@ Para aprender lo básico de C++ revisar el siguiente enlace de w3schools: [https
 ### Python
 
 En general, Python es un lenguaje bastante simple en sintáxis y se enseña en gran parte de las universidad que tienen programación en primer año como parte de plan común, de todas formas si es que necesitan algo podrían consultar el siguiente enlace de w3schools: [https://www.w3schools.com/python/default.asp](https://www.w3schools.com/python/default.asp). En este enlace podrán aprender lo básico de Python, al igual que en C++ es importante saber los tipos de datos, también las herramientas que posee el lenguaje: listas, tuplas, diccionarios, etc.
-
-## Para iniciarse
-
-Como recomendación, empiecen a subir problemas sencillos a los jueces para irse acostumbrando a la mécanica. Aquí les dejamos una lista de problemas para que comiencen a subir cosas:
-
-* [https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=607&page=show_problem&problem=3710](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=607&page=show_problem&problem=3710)
-* [https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=607&page=show_problem&problem=3834](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=607&page=show_problem&problem=3834)
-* [https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=607&page=show_problem&problem=2827](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=607&page=show_problem&problem=2827)
-* [https://codeforces.com/problemset/problem/443/A](https://codeforces.com/problemset/problem/443/A)
-* [https://codeforces.com/problemset/problem/520/A](https://codeforces.com/problemset/problem/520/A)
-* [https://codeforces.com/contest/1339/problem/A](https://codeforces.com/contest/1339/problem/A)
-* [https://codeforces.com/contest/1547/problem/A](https://codeforces.com/contest/1547/problem/A)
-* [https://codeforces.com/contest/1530/problem/B](https://codeforces.com/contest/1530/problem/B)
-
-
