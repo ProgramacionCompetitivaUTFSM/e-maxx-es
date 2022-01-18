@@ -2,9 +2,10 @@
 
 ## Definición simple
 
-La complejidad algorítmica corresponde a un área de estudio en el cúal uno podrá determinar cuantos recursos utiliza un algoritmo, recursos como es el tiempo que utiliza y el espacio que utiliza. La complejidad se aplica para buscar la función que se comporte como el algoritmo, según el input que este reciba. Existe varias noticiones dentro de esta área: **o** o *"o chica"*, **O** o *"O grande"*, **$\theta$** o *"theta"*, **$\omega$** o *"Omega chica"* y **$\Omega$** o *"Omega grande"*. 
+La complejidad algorítmica corresponde a un área de estudio en el cual uno podrá determinar cuántos recursos utiliza un algoritmo, recursos como es el tiempo que utiliza y el espacio que utiliza. La complejidad se aplica para buscar la función que se comporte como el algoritmo, según el input que este reciba. Existe varias noticiones dentro de esta área: **o** o *"o chica"*, **O** o *"O grande"*, **$\theta$** o *"theta"*, **$\omega$** o *"Omega chica"* y **$\Omega$** o *"Omega grande"*. 
 
-Para lo que es la programación competitiva, nos concentraremos en **O** o *O grande*. Esta notación corresponde a que el algoritmo que se esta aplicación a lo más se va a comportar como la función dada. Por ejemplo, $O(n)$ quiere decir que el algoritmo que siga esta función tenderá a demorarse en el peor de los casos $n$ unidades de tiempo. Como lo pueden deducir, este tópico es muy relevante para la disciplina, debido a que análizando el algoritmo uno podría saber si es que vale la pena programarlo para resolver el problema o no. Permitiendo así que no pierdan tiempo desarrollando una solución que no servirá.
+Para lo que es la programación competitiva, nos concentraremos en **O** o *O grande*. Esta notación corresponde a que el algoritmo que se esta aplicación a lo más se va a comportar como la función dada. Por ejemplo, $O(n)$ quiere decir que el algoritmo que siga esta función tenderá a demorarse en el peor de los casos $n$ unidades de tiempo. Como lo pueden deducir, este tópico es muy relevante para la disciplina, debido a que analizando el algoritmo uno podría saber si es que vale la pena programarlo para resolver el problema o no. Permitiendo así que no pierdan tiempo desarrollando una solución que no servirá.
+
 
 ## Ejemplo básicos
 
@@ -66,7 +67,7 @@ int main(){
 }
 ```
 
-En este ejemplo, se puede visualizar que existen dos `for` anidados y que ambos dependen de un $n$ ingresado por consola. El `for` de más adentro (llamemoslo $for_2$) debe realizar $n$ sumas de $1$, y el for de más afuera (llamemoslo $for_1$) debe realizar $n$ veces el $for_2$, por lo que al tener que hacer $n$ veces algo que hace $n$ operaciones la complejidad de este algoritmo será $O(n\cdot n)= O(n^2)$.
+En este ejemplo, se puede visualizar que existen dos `for` anidados y que ambos dependen de un $n$ ingresado por consola. El `for` de más adentro (llamémoslo $for_2$) debe realizar $n$ sumas de $1$, y el `for` de más afuera (llamémoslo $for_1$) debe realizar $n$ veces el $for_2$, por lo que al tener que hacer $n$ veces algo que hace $n$ operaciones la complejidad de este algoritmo será $O(n\cdot n)= O(n^2)$.
 
 ### Ejemplo 4: Tiempo logarítmico
 
@@ -86,7 +87,7 @@ int main(){
 }
 ```
 
-En este ejemplo, se puede visualizar que el `for` que uno esta realizando parte en `i = 1` y realiza aumentos multiplicando el $i$ actual por $2$. Entonces, $i$ tendrá los siguientes valores: $1$, $2$, $4$, $8$ y así, hasta que $i$ sea mayor  que $n$. Si es que analizan correctamente cuantas veces hace la operación `suma += 1`, se darán cuenta que esta operación se hará $\log n$ veces aproxidamente. Por lo que la complejidad de este algoritmo será de $O(\log n)$.
+En este ejemplo, se puede visualizar que el `for` que uno está realizando parte en `i = 1` y realiza aumentos multiplicando el $i$ actual por $2$. Entonces, $i$ tendrá los siguientes valores: $1$, $2$, $4$, $8$ y así, hasta que $i$ sea mayor que $n$. Si es que analizan correctamente cuantas veces hace la operación `suma += 1`, se darán cuenta que esta operación se hará $\log n$ veces aproximadamente. Por lo que la complejidad de este algoritmo será de $O(\log n)$.
 
 
 ## Dato Freak
