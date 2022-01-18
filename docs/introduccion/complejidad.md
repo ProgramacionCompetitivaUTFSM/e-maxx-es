@@ -93,7 +93,7 @@ En este ejemplo, se puede visualizar que el `for` que uno esta realizando parte 
 
 Como se mencionó en la sección "¿Qué es la ProgComp?", cada problema tiene un tiempo definido y un input, gracias a esta información uno puede determinar que tipos de complejidades se esperan del problema y por lo tanto reducir el abanico de opciones a alguno más limitado. La siguiente tabla indica la complejidad de un algoritmo **APROXIMADAMENTE** debería tener para no pasar cierto tiempo límite.
 
-| $n$            | Peor complejidad aceptada |
+| Tamaño del input: $n$            | Peor complejidad aceptada |
 |--------------|---------------------------|
 | $<= [10..11]$  | $O(n!)$, $O(n^6) $            |
 | $<= [15..18]$  | $O(2^n \cdot n^2)$          |
