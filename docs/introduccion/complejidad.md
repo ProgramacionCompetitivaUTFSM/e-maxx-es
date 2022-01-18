@@ -10,7 +10,7 @@ Para lo que es la programación competitiva, nos concentraremos en **O** o *O gr
 
 ### Ejemplo 1: Tiempo 1
 
-```Cpp
+```cpp
 #include<bits/stdc++.h> 
 using namespace std;
 
@@ -28,7 +28,7 @@ En este ejemplo, se puede ver como simplemente aplica $5$ operaciones simples, e
 
 ### Ejemplo 2: Tiempo lineal
 
-```Cpp
+```cpp
 #include<bits/stdc++.h> 
 using namespace std;
 
@@ -48,7 +48,7 @@ En este ejemplo, se puede ver que solo se aplica un `for`, que realiza $n$ opera
 
 ### Ejemplo 3: Tiempo cuadrático
 
-```Cpp
+```cpp
 #include<bits/stdc++.h> 
 using namespace std;
 
@@ -70,7 +70,7 @@ En este ejemplo, se puede visualizar que existen dos `for` anidados y que ambos 
 
 ### Ejemplo 4: Tiempo logarítmico
 
-```Cpp
+```cpp
 #include<bits/stdc++.h> 
 using namespace std;
 
