@@ -462,3 +462,17 @@ Para más consultas respecto a lo estudiado en este capítulo.
 * Upper bound - [https://www.cplusplus.com/reference/algorithm/upper_bound/](https://www.cplusplus.com/reference/algorithm/upper_bound/)
 * Lower bound - [https://www.cplusplus.com/reference/algorithm/lower_bound/](https://www.cplusplus.com/reference/algorithm/lower_bound/)
 * Binary search - [https://www.cplusplus.com/reference/algorithm/binary_search/](https://www.cplusplus.com/reference/algorithm/binary_search/)
+
+
+## Problemas
+
+Aquí se deja un listado de problemas que se pueden resolver con lo aprendido (ojo que los problemas no necesariamente estan en orden de fácil o díficil):
+
+
+* 10038 Jolly Jumpers <br>[https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=623&page=show_problem&problem=979](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=623&page=show_problem&problem=979)
+* 482 Permutation Arrays <br>[https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=623&page=show_problem&problem=423](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=623&page=show_problem&problem=423) 
+* 591 Box of Bricks <br> [https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=623&page=show_problem&problem=532](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=623&page=show_problem&problem=532)
+* 10703 Free spots <br> [https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=624&page=show_problem&problem=1644](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=624&page=show_problem&problem=1644)
+* 339A Helpful Maths<br>[https://codeforces.com/problemset/problem/339/A](https://codeforces.com/problemset/problem/339/A)
+* 1618A Polycarp and Sums of Subsequences <br> [https://codeforces.com/problemset/problem/1618/A](https://codeforces.com/problemset/problem/1618/A)
+* 1334B Middle Class <br> [https://codeforces.com/problemset/problem/1334/B](https://codeforces.com/problemset/problem/1334/B)
