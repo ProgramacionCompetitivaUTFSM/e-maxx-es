@@ -12,14 +12,14 @@ Atte. MrYhatoh
 
 > Updates
 
-* Capítulo de introducción en proceso
-	* 17-01-2022 - Se añadió una sección de ejemplo para un primer problema y se movió la subsección que había en ¿Qué es la ProgComp? de problemas a una nueva sección de la introducción
-	* 17-01-2022 - Se añadieron detalles respecto a los lenguajes de programación C++ y Python
-	* 13-01-2022 - Se desarrollo capítulo que intenta explicar lo que es la prog comp y por donde iniciarse 
+* 18-01-2022 - Se comenzó la sección de estructuras de datos lineales, añadiendo tema respecto [arreglos estáticos y dinámicos](edd_lineales/arreglos.md).
+* 18-01-2022 - Se añadió una sección de [complejidad algorítmica](/introduccion/complejidad.md)
+* 17-01-2022 - Se añadió una sección de ejemplo para un [primer problema](introduccion/primer_problema.md) y se movió la subsección que había en ¿Qué es la ProgComp? de problemas a una nueva sección de la introducción
+* 17-01-2022 - Se añadieron detalles respecto a los lenguajes de programación C++ y Python
+* 13-01-2022 - Se desarrollo capítulo que intenta explicar lo [que es la prog comp](introduccion/que_es_cp.md) y por donde iniciarse 
 
 > TO DO
 
 * Revisar la introducción por fallas
-* Estructuras de datos líneales 
 * Estructuras de datos no líneales
 * Y más
