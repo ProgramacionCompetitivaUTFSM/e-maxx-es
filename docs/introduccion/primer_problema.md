@@ -24,7 +24,7 @@ El problema dice lo siguiente:
 
 En resumen, el problema trata de que Pete y su amigo Billy quieren dividir la sandía, pero son muy fans de los números pares, por lo que quieren dividir la sandía en dos de tal forma que las dos partes sean de un peso par. Lo que tú sabes es que inicialmente recibes un número $w$ que corresponderá a los kilos de la sandía, añadiendo que como $w$ es positivo y menor a $100$, entonces el número basta con tener un tipo de dato `int` para almacenar la variable. 
 
-Ahora, ¿Cómo se puede cumplir con el objetivo? Ellos quieren dividir la sandía en dos pedazos pares no nesariamente iguales, para ellos hay que darse cuenta que $w = a + b$, donde $a$ y $b$ son números pares, pero la única forma de que un número se pueda dividir en dos números pares es que ese número sea par. Por lo tanto, $w$ debe ser par que poder mostrar por consola `YES`. Pero, ¿Eso basta? No, ¿Existe algún número par, donde lo que dijimos anteriomente no se cumple? EXACTO, EN EL 2!!!! Entonces, la condición completa del problema es que para mostrar `YES`, $w$ debe ser par **Y** mayor a $2$.
+Ahora, ¿Cómo se puede cumplir con el objetivo? Ellos quieren dividir la sandía en dos pedazos pares no necesariamente iguales, para ellos hay que darse cuenta de que $w = a + b$, donde $a$ y $b$ son números pares, pero la única forma de que un número se pueda dividir en dos números pares es que ese número sea par. Por lo tanto, $w$ debe ser par que poder mostrar por consola `YES`. Pero ¿Eso basta? No, ¿Existe algún número par, donde lo que dijimos anteriormente no se cumple? EXACTO, EN EL 2!!!! Entonces, la condición completa del problema es que para mostrar `YES`, $w$ debe ser par **Y** mayor a $2$.
 
 Felicidades!!! Tenemos la idea, ahora a programar!
 

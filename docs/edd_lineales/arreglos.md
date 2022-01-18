@@ -14,7 +14,7 @@ Por ejemplo, en la tabla anterior se pude ver un arreglo de tamaño $5$ que alma
 
 ## Arreglos estáticos
 
-Los arreglos estáticos tienen la caracteristica que su tamaño se define una vez, este tamaño no puede aumentar ni disminuir. 
+Los arreglos estáticos tienen la característica que su tamaño se define una vez, este tamaño no puede aumentar ni disminuir. 
 
 ### Declaración
 
@@ -279,4 +279,186 @@ Como se indicó en la [definición](#Definición), los arreglos son una estructu
   <img src="../_media/edd_lineales/array_insert_2.png" />
 </p>
 
-En la imagen, se visualiza como se tuvieron que mover $3$ enteros. Ahora, esta cantidad de números puede ser $3$ enteros o todos los enteros de los arreglos, esto dependiendo de la posición en que uno quiera insertar el valor. Por lo que, la complejidad de una inserción es $O(n)$. Para la función erase se puede hacer un trabajo simular con respecto a como se mueven los los valores, provocando que su complejidad sea igualmente $O(n)$.
+En la imagen, se visualiza como se tuvieron que mover $3$ enteros. Ahora, esta cantidad de números puede ser $3$ enteros o todos los enteros del arreglo, esto dependiendo de la posición en que uno quiera insertar el valor. Por lo que, la complejidad de una inserción es $O(n)$. Para la función erase se puede hacer un trabajo simular con respecto a como se mueven los los valores, provocando que su complejidad sea igualmente $O(n)$.
+
+## Funciones útiles
+
+Además de las mismas funciones que usan los arreglos, también existen funciones implementadas en la librería STL, tanto para buscar datos como ordenar los datos de los arreglos.
+
+### Ordenar elementos
+
+Para ordenar elementos en los arreglos se puede hacer uso la función implementada en la librería STL, aunque si no uno quiere hacer una tarea en especifico talvez sea mejor programar su propia función de sort. Pero, por ahora utilicemos simplemente la función de la librería STL. Esta función se llama `sort(puntero principio, puntero final)`.
+
+```cpp
+#include<bits/stdc++.h> 
+using namespace std;
+ 
+int main(){
+	int n;
+	cin >> n;
+
+	// aquí estamos asumiendo que solo ingresarán
+	// máximo 10000 de enteros, o sea n <= 10000
+	int arr[10000];
+	for(int i = 0; i < n; i++){
+		cin >> arr[i];
+	}
+
+	// a los arreglos ser punteros arr ya es el puntero
+	// al princio y arr + n corresponde al puntero final
+	sort(arr, arr + n);
+
+	cout << "Tamano arreglo: " << n << "\n";
+	cout << "Valores: ";
+	for(int i = 0; i < n; i++){
+		cout << " " << arr[i];
+	}
+	cout << "\n";
+
+	// ordenando un vector
+	vector< int > vec(n);
+
+	for(int i = 0; i < n; i++){
+		cin >> vec[i];
+	}
+
+	// en caso de vectores utilizaremos la función
+	// .begin() para obtener el puntero al principio
+	// y .end() para obtener el puntero al final
+	sort(vec.begin(), vec.end());
+
+	cout << "Tamano vector: " << vec.size() << "\n";
+	cout << "Valores: ";
+	for(int i = 0; i < vec.size(); i++){
+		cout << " " << vec[i];
+	}
+	cout << "\n";
+	return 0;
+}
+```
+
+También si uno lo require puede añadir una función personalidad para ordenar los números. Por default, C++ ordena los valores de menor a mayor, si uno quiere ordenar de otra forma debe hacer otra función que lo permita y pasarlo como parámetro a la función.
+
+```cpp
+#include<bits/stdc++.h> 
+using namespace std;
+
+// para ordenar debe retornar un booleando
+// y debe recibir dos elementos `a` y `b`
+// la función debe retornar:
+//	* verdadero: si es que `a` va a la izquierda de `b`
+// 	* falso: si es que `a` va a la derecha de `b`
+bool mayor_a_menor(int a, int b){
+	if(a >= b){
+		return true;
+	} else {
+		return false;
+	}
+}
+ 
+int main(){
+	int n;
+	cin >> n;
+	// ordenando un vector
+	vector< int > vec(n);
+
+	for(int i = 0; i < n; i++){
+		cin >> vec[i];
+	}
+
+	// para ordenar según la función deseada se agrega
+	// como tercer parámetro
+	sort(vec.begin(), vec.end(), mayor_a_menor);
+
+	cout << "Tamano vector: " << vec.size() << "\n";
+	cout << "Valores: ";
+	for(int i = 0; i < vec.size(); i++){
+		cout << " " << vec[i];
+	}
+	cout << "\n";
+	return 0;
+}
+```
+
+Otro dato muy poderoso es que se pueden ordenar todo tipo de dato comparable. Esto significa que se pueden ordenar arreglos de caracteres, flotantes, pares (una estructura que almacena dos elementos), strings, vectores, etc. También esta función es eficiente y tiene una complejidad de $O(n \log n)$.
+
+### Buscar elementos
+
+Para buscar elementos en los arreglos se puede buscar de izquierda a derecha, pero eso tomaría $O(n)$ en el peor caso, donde $n$ es el tamño del arreglo. Ahora bien, si uno supiera que el arreglo esta ordenado, uno puede aplicar lo que se conoce como búsqueda binaria y esto esta implementado en tres funciones `upper_bound(puntero principio, puntero final, valor a buscar)`, `lower_bound(puntero principio, puntero final, valor a buscar)`, `binary_search(puntero principio, puntero final, valor a buscar)`. Un dato importante para el uso de estas funciones es que el arreglo debe estar ordenado, sino no tiene sentido utilizar estas funciones. 
+
+Por último, la complejidad de estas funciones es $O(\log n)$ lo cual es bastante eficiente.
+
+#### Lower Bound
+
+Esta función busca el primer valor que sea **menor o igual** al valor que se busca. Si es que hay varios números iguales al valor que se busca, se retornará el de más a la izquierda. Además, `lower_bound` retorna un iterador a la posición del valor (en escencia se puede entender el iterador como un puntero) y para obtener la posición del elemento se debe aplicar `iterador obtenido - iterador de principio`.
+
+```cpp
+#include<bits/stdc++.h> 
+using namespace std;
+
+int main(){
+	vector< int >::iterator low;
+	vector< int > v = {1, 1, 1, 3, 5};
+
+	low = lower_bound(v.begin(), v.end(), 2);
+	if(*low == 2){
+		cout << "El numero " << *low;
+		cout << " esta en la posicion ";
+		cout << low - v.begin() << "\n";
+	} else {
+		cout << "El numero 2 no se encontro\n";
+	}
+	return 0;
+}
+```
+
+Esta función busca el primer valor que sea **mayor** al valor que se busca. Además, `lower_bound` retorna un iterador a la posición del valor (en escencia se puede entender el iterador como un puntero) y para obtener la posición del elemento se debe aplicar `iterador obtenido - iterador de principio`.
+
+#### Upper Bound
+
+```cpp
+#include<bits/stdc++.h> 
+using namespace std;
+
+int main(){
+	vector< int >::iterator up;
+	vector< int > v = {1, 2, 2, 3, 4};
+
+	up = upper_bound(v.begin(), v.end(), 2);
+	cout << "El numero " << *up;
+	cout << " esta en la posicion ";
+	cout << up - v.begin() << "\n";
+	return 0;
+}
+```
+
+#### Binary Search
+
+Esta función retorna verdadero o falso dependiendo si es que el valor se encuentra en el arreglo o no.
+
+```cpp
+#include<bits/stdc++.h> 
+using namespace std;
+
+int main() {
+	vector< int > v = {1, 2, 2, 3, 4};
+
+	if(binary_search(v.begin(), v.end(), 3)) {
+		cout << "Se encontro el numero 3\n";
+	} else {
+		cout << "No se encontro el numero 3\n";
+	}
+	
+	return 0;
+}   
+```
+
+## Referencias
+
+Para más consultas respecto a lo estudiado en este capítulo.
+
+* Vectores - [https://www.cplusplus.com/reference/vector/vector/](https://www.cplusplus.com/reference/vector/vector/)
+* Sort - [https://www.cplusplus.com/reference/algorithm/sort/](https://www.cplusplus.com/reference/algorithm/sort/)
+* Upper bound - [https://www.cplusplus.com/reference/algorithm/upper_bound/](https://www.cplusplus.com/reference/algorithm/upper_bound/)
+* Lower bound - [https://www.cplusplus.com/reference/algorithm/lower_bound/](https://www.cplusplus.com/reference/algorithm/lower_bound/)
+* Binary search - [https://www.cplusplus.com/reference/algorithm/binary_search/](https://www.cplusplus.com/reference/algorithm/binary_search/)
