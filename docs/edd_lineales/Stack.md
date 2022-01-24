@@ -5,7 +5,7 @@ Los stacks (pilas en su traducción al español) son una estructura de datos lin
 
 Como se puede observar en la animación que está en la parte superior, podemos hacer una analogia a un monto de libros apilados de forma vertical, en la cual solo podemos sacar el ultimo libro que coloquemos en la pila de forma sencilla (asumimos que no se pueden sacar libros de la mitad). 
 
-La pilas se ha tenido varios usos en la vida cotidiana como en algoritmos, uno de los más comunes podria ser el historial de cambios o la verificación de los parentesis abiertos o cerrados de una secuencia.
+La pilas se ha tenido varios usos en la vida cotidiana como en algoritmos, uno de los más comunes podria ser el historial de cambios o la verificación de los parentesis abiertos y cerrados de una secuencia.
 
 La principal ventaja de la pila es el almacenamiento en memoria de forma no contigua, esto permite un eficiente acceso, inserción y eliminación, siendo su complejidad $O(1)$, esta complejidad será así, siempre y cuando sea el ultimo elemento, ya que no se pueden acceder a los elementos que este en la mitad de la pila.
 
