@@ -7,12 +7,12 @@ Como se puede observar en la animación que está en la parte superior, podemos 
 
 La pilas se ha tenido varios usos en la vida cotidiana como en algoritmos, uno de los más comunes podria ser el historial de cambios o la verificación de los parentesis abiertos y cerrados de una secuencia.
 
-La principal ventaja de la pila es el almacenamiento en memoria de forma no contigua, esto permite un eficiente acceso, inserción y eliminación, siendo su complejidad $O(1)$, esta complejidad será así, siempre y cuando sea el ultimo elemento, ya que no se pueden acceder a los elementos que este en la mitad de la pila.
+La principal ventaja de la pila es el almacenamiento en memoria de forma contigua, esto permite un eficiente acceso, inserción y eliminación, siendo su complejidad $O(1)$, esta complejidad será así, siempre y cuando sea el ultimo elemento, ya que no se pueden acceder a los elementos que este en la mitad de la pila.
 
 ## Implementación
 
 ### Declaración
-```c++
+```cpp
 #include<bits/stdc++.h>
  
 using  namespace std;
@@ -40,7 +40,7 @@ int main() {
 ```
 
 ### Acceso y almacenamiento
-```c++
+```cpp
 #include<bits/stdc++.h>
 
 using  namespace std;
