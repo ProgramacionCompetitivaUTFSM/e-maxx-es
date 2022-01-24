@@ -2,7 +2,6 @@
 ## Definición
 Los stacks (pilas en su traducción al español) son una estructura de datos lineal que permite almacenar los datos de forma no contigua en la memoria. La forma de acceder a los datos es llamada **LIFO** (del inglés Last In First Out, el último en entrar, el primero en salir), esto nos da a entender que solo tenemos acceso al ultimo elemento que se ingresó a la pila.
 
-
 ![Stack GIF Animation](https://miro.medium.com/max/1280/1*lb-0r80YYhcnoVcQ3HY-1g.gif)
 
 Como se puede observar en la animación que está en la parte superior, podemos hacer una analogia a un monto de libros apilados de forma vertical, en la cual solo podemos sacar el ultimo libro que coloquemos en la pila de forma sencilla (asumimos que no se pueden sacar libros de la mitad). 
