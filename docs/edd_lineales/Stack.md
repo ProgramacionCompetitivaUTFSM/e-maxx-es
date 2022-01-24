@@ -1,18 +1,19 @@
 # Stack
-![Stack GIF Animation](https://miro.medium.com/max/1280/1*lb-0r80YYhcnoVcQ3HY-1g.gif)
 ## Definición
-Los stacks (pilas en su traducción al español) son una estructura de datos lineal que permite almacenar los datos de forma no contigua en la memoria. La forma de acceder a los datos es llamada **LIFO** (del inglés Last In First Out, el primero en entrar, el primero en salir), esto nos da a entender que solo tenemos acceso al ultimo elemento que se ingresó a la pila.
+Los stacks (pilas en su traducción al español) son una estructura de datos lineal que permite almacenar los datos de forma no contigua en la memoria. La forma de acceder a los datos es llamada **LIFO** (del inglés Last In First Out, el último en entrar, el primero en salir), esto nos da a entender que solo tenemos acceso al ultimo elemento que se ingresó a la pila.
+
+![Stack GIF Animation](https://miro.medium.com/max/1280/1*lb-0r80YYhcnoVcQ3HY-1g.gif)
 
 Como se puede observar en la animación que está en la parte superior, podemos hacer una analogia a un monto de libros apilados de forma vertical, en la cual solo podemos sacar el ultimo libro que coloquemos en la pila de forma sencilla (asumimos que no se pueden sacar libros de la mitad). 
 
 La pilas se ha tenido varios usos en la vida cotidiana como en algoritmos, uno de los más comunes podria ser el historial de cambios o la verificación de los parentesis abiertos y cerrados de una secuencia.
 
-La principal ventaja de la pila es el almacenamiento en memoria de forma no contigua, esto permite un eficiente acceso, inserción y eliminación, siendo su complejidad $O(1)$, esta complejidad será así, siempre y cuando sea el ultimo elemento, ya que no se pueden acceder a los elementos que este en la mitad de la pila.
+La principal ventaja de la pila es el almacenamiento en memoria de forma contigua, esto permite un eficiente acceso, inserción y eliminación, siendo su complejidad $O(1)$ en todas las operaciones. Esta complejidad será así, siempre y cuando sea el último elemento, ya que no se pueden acceder **DIRECTAMENTE** a los elementos que este en la mitad de la pila, si es que se quiere llegar a algún elemento que este en la mitad de la pila se tendrá que sacar todo elemento que este arriba de ese antes.
 
 ## Implementación
 
 ### Declaración
-```c++
+```cpp
 #include<bits/stdc++.h>
  
 using  namespace std;
@@ -40,7 +41,7 @@ int main() {
 ```
 
 ### Acceso y almacenamiento
-```c++
+```cpp
 #include<bits/stdc++.h>
 
 using  namespace std;
