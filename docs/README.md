@@ -12,7 +12,7 @@ Atte. MrYhatoh
 
 > Updates
 
-* 23-01-2022 - Se agregó en la sección de estructuras de datos lineales, el capitulo respecto a [las pilas](edd_lineales/stack.md)
+* 23-01-2022 - Se agregó en la sección de estructuras de datos lineales, el capitulo respecto a [las pilas](edd_lineales/pilas.md)
 * 18-01-2022 - Se agregó información respecto a funciones útiles para los arreglos, funciones para buscar como ordenar. Se agrego referencias y problemas a realizar
 * 18-01-2022 - Se comenzó la sección de estructuras de datos lineales, añadiendo tema respecto [arreglos estáticos y dinámicos](edd_lineales/arreglos.md).
 * 18-01-2022 - Se añadió una sección de [complejidad algorítmica](/introduccion/complejidad.md)
