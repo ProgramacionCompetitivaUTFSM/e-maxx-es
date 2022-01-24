@@ -5,7 +5,7 @@
 	- [Más problemas!!!](/introduccion/mas_problemas.md)
 - Estructuras de datos lineales
 	- [Arreglos](/edd_lineales/arreglos.md)
-	- [Pilas](/edd_lineales/stack.md)
+	- [Pilas](/edd_lineales/pilas.md)
 - Álgebra
 	- [Exponenciación Binaria](/algebra/exponenciacion-binaria.md)
 	- [Algoritmo Euclidiano](/algebra/algoritmo-euclidiano.md)
