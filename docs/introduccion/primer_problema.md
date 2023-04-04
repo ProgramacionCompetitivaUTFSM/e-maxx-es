@@ -1,7 +1,7 @@
 # Nuestro primer problema!!
 
 > **Tabla de Contenidos**
-> * [4A Watermelon - Codeforces](#4A Watermelon - Codeforces)
+> * [4A Watermelon - Codeforces](#4A_Watermelon_-_Codeforces)
 >   * [Enunciado](#Enunciado)
 >   * [Input](#Input)
 >   * [Output](#Output)
