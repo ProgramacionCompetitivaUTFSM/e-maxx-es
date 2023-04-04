@@ -1,5 +1,21 @@
 # Arreglos
 
+> **Tabla de Contenidos**
+> * [Definición](#Definición)
+> * [Arreglos estáticos](#Arreglos estáticos)
+>   * [Declaración](#Declaración)
+>   * [Acceso y almacenamiento](#Acceso y almacenamiento)
+> * [Arreglos dinámicos](#Arreglos dinámicos)
+>   * [Declaración](#Declaración)
+>   * [Acceso y almacenamiento](#Acceso y almacenamiento)
+>   * [Agregar al final/quitar del final](#Agregar al final/quitar del final)
+>   * [Insertar/eliminar en cualquier posicion del vector](#Insertar/eliminar en cualquier posicion del vector)
+> * [Funciones útiles](#Funciones útiles)
+>   * [Ordenar elementos](#Ordenar elementos)
+>   * [Buscar elementos](#Buscar elementos)
+> * [Referencias](#Referencias)
+> * [Problemas](#Problemas)
+
 ## Definición
 
 Los arreglos son una estructura de datos lineal que tiene los datos de manera contigua en la memoria. En este capítulo, se enseñaran respecto a los dos tipos de arreglos que existes: estáticos y dinámicos. En ambos casos, se estos permiten un acceso eficiente a un dato en tiempo $O(1)$ y también almacenamiento de un dato e tiempo $O(1)$. Pero, la principal diferencia entre ambos es que los arreglos dinámicos pueden aumentar y/o disminuir su tamaño durante la ejecución del programa.
@@ -219,7 +235,7 @@ int main(){
 
 Ambas funciones al tener que agregar solo al final, estas funciones tienen una complejidad de $O(1)$, ya que simplemente debe agregar un nuevo espacio al final del vector y almacenar el valor nuevo, para quitar es la misma idea, pero disminuyendo el tamaño del vector.
 
-### Insertar/elminar en cualquier posicion del vector
+### Insertar/eliminar en cualquier posicion del vector
 
 Además de poder agregar o quitar del final, se puede insertar o eliminar de cualquier posición del arreglo. Esto se puede hacer utilizando las funciones `vec.insert(puntero a la posicion, valor)` y `vec.erase(puntero a la posicion)`.
 
