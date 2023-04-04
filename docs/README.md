@@ -12,6 +12,8 @@ Atte. MrYhatoh
 
 > Updates
 
+* 04-04-2023 - Se agregó las secciones [colas](edd_lineales/colas.md) y [deque](edd_lineales/deque.md)
+* 04-04-2023 - Se agregaron tablas de contenidos en todos los documentos
 * 23-01-2022 - Se agregó en la sección de estructuras de datos lineales, el capitulo respecto a [las pilas](edd_lineales/pilas.md)
 * 18-01-2022 - Se agregó información respecto a funciones útiles para los arreglos, funciones para buscar como ordenar. Se agrego referencias y problemas a realizar
 * 18-01-2022 - Se comenzó la sección de estructuras de datos lineales, añadiendo tema respecto [arreglos estáticos y dinámicos](edd_lineales/arreglos.md).

@@ -6,6 +6,8 @@
 - Estructuras de datos lineales
 	- [Arreglos](/edd_lineales/arreglos.md)
 	- [Pilas](/edd_lineales/pilas.md)
+	- [Colas](/edd_lineales/colas.md)
+	- [Deque](/edd_lineales/deque.md)
 - Álgebra
 	- [Exponenciación Binaria](/algebra/exponenciacion-binaria.md)
 	- [Algoritmo Euclidiano](/algebra/algoritmo-euclidiano.md)
