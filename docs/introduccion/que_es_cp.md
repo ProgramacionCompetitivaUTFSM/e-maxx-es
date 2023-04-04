@@ -1,6 +1,14 @@
 # ¿Qué es la Programación Competitiva?
 
-## Nanda kore wa?
+> **Tabla de Contenidos**
+> * [¿Qué es la Programación Competitiva?](#¿Qué es la Programación Competitiva?)
+> * [Juez online y Problemas](#Juez online y Problemas)
+>   * [Juez Online](#Juez Online)
+>   * [Los problemas](#Los problemas)
+> * [Los lenguajes de programación en ProgComp](#Los lenguajes de programación en ProgComp)
+
+
+## ¿Qué es la Programación Competitiva?
 
 La programación competitiva corresponde de una disciplina en la cual uno tiene un plazo definido de tiempo para poder resolver una cierta cantidad de problemas. Estos problemas corresponden a algún problema que se puede resolver a través de la programación en uno o más lenguajes. 
 
@@ -62,7 +70,7 @@ Como se indicó más arriba, se puede elegir que lenguaje utilizar para poder re
 
 ### C++
 
-Para aprender lo básico de C++ revisar el siguiente enlace de w3schools: [https://www.w3schools.com/CPP/default.asp](https://www.w3schools.com/CPP/default.asp). Cosas importantes que retener de lo básico de C++ son los tipos de datos, por ejemplo, el rango de números de un `int`, `long long int`, `unsigned int`, etc. Luego, también existe lo que la librería STL, la cual permite el uso de estructuras de datos eficientes, que serán estudiadas en los capítulos de EDD Lineales y EDD no Lineales.
+Para aprender lo básico de C++ revisar el siguiente enlace: [Apunte UChile ProgComp](https://uchile.progcomp.cl/apunte/introduccion_a_cpp/compilacion_y_editores/). Cosas importantes que retener de lo básico de C++ son los tipos de datos, por ejemplo, el rango de números de un `int`, `long long int`, `unsigned int`, etc. Luego, también existe lo que la librería STL, la cual permite el uso de estructuras de datos eficientes, que serán estudiadas en los capítulos de EDD Lineales y EDD no Lineales.
 
 ### Python
 
