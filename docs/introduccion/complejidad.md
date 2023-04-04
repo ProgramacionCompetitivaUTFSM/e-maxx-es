@@ -1,9 +1,9 @@
 # Complejidad algorítmica
 
 > **Tabla de Contenidos**
-> * [Definición simple](#Definición simple)
-> * [Ejemplos básicos](#Ejemplos básicos)
-> * [Dato Freak](#Dato Freak)
+> * [Definición simple](#Definición_simple)
+> * [Ejemplos básicos](#Ejemplos_básicos)
+> * [Dato Freak](#Dato_Freak)
 
 ## Definición simple
 
