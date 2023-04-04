@@ -4,7 +4,7 @@
 > * [Definición](#Definición)
 > * [Utilización](#Utilización)
 >   * [Declaración](#Declaración)
->   * [Acceso y almacenamiento](#Acceso y almacenamiento)
+>   * [Acceso y almacenamiento](#Acceso_y_almacenamiento)
 > * [Problemas](#Problemas)
 
 ![Stack GIF Animation](https://miro.medium.com/max/1280/1*lb-0r80YYhcnoVcQ3HY-1g.gif)
