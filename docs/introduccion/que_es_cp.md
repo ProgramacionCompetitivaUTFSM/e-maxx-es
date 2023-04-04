@@ -1,7 +1,7 @@
 # ¿Qué es la Programación Competitiva?
 
 > **Tabla de Contenidos**
-> * [¿Qué es la Programación Competitiva?](#¿Qué_es_la_Programación Competitiva?)
+> * [¿Qué es la Programación Competitiva?](#¿Qué_es_la_Programación_Competitiva?)
 > * [Juez online y Problemas](#Juez_online_y_Problemas)
 >   * [Juez Online](#Juez_Online)
 >   * [Los problemas](#Los_problemas)
