@@ -4,12 +4,13 @@
 > * [Definición](#Definición)
 > * [Utilización](#Utilización)
 >   * [Declaración](#Declaración)
->   * [Acceso y almacenamiento](#Acceso_y_almacenamiento)
+>   * [Operaciones](#Operaciones)
 > * [Problemas](#Problemas)
 
 ![Stack GIF Animation](https://miro.medium.com/max/1280/1*lb-0r80YYhcnoVcQ3HY-1g.gif)
 ## Definición
-Los stacks (pilas en su traducción al español) son una estructura de datos lineal que permite almacenar los datos de forma no contigua en la memoria. La forma de acceder a los datos es llamada **LIFO** (del inglés Last In First Out, el último en entrar, el primero en salir), esto nos da a entender que solo tenemos acceso al ultimo elemento que se ingresó a la pila.
+
+Los stacks (pilas en su traducción al español) son una estructura de datos lineal que permite almacenar los datos de forma contigua en la memoria. La forma de acceder a los datos es llamada **LIFO** (del inglés Last In First Out, el último en entrar, el primero en salir), esto implica solo tenemos acceso al ultimo elemento que se ingresó a la pila.
 
 Como se puede observar en la animación que está en la parte superior, podemos hacer una analogia a un monto de libros apilados de forma vertical, en la cual solo podemos sacar el ultimo libro que coloquemos en la pila de forma sencilla (asumimos que no se pueden sacar libros de la mitad). 
 
@@ -17,7 +18,7 @@ La pilas se ha tenido varios usos en la vida cotidiana como en algoritmos, uno d
 
 La principal ventaja de la pila es el almacenamiento en memoria de forma contigua, esto permite un eficiente acceso, inserción y eliminación, siendo su complejidad $O(1)$ en todas las operaciones. Esta complejidad será así, siempre y cuando sea el último elemento, ya que no se pueden acceder **DIRECTAMENTE** a los elementos que este en la mitad de la pila, si es que se quiere llegar a algún elemento que este en la mitad de la pila se tendrá que sacar todo elemento que este arriba de ese elemento.
 
-## Implementación
+## Utilización
 
 ### Declaración
 ```cpp
@@ -33,7 +34,7 @@ int main() {
 	*/
 	stack<int> S;
 
-	// Posibles tipos de datos
+	// Se puede almacenar cualquier tipo de datos
 	stack<char> A;
 	stack<string> B;
 	stack<short> C;
@@ -47,7 +48,7 @@ int main() {
 }
 ```
 
-### Acceso y almacenamiento
+### Operaciones
 ```cpp
 #include<bits/stdc++.h>
 
@@ -62,6 +63,11 @@ int main() {
 	*/
 	S.push(1);
 	 
+  /* Para sacar el ultimo elemento ingresado se usa el método
+  pop.
+  */
+  S.pop();
+  
 	/* Para ver cual es el valor del ultimo elemento ingresado
 	se usa el método top.
 	*/
