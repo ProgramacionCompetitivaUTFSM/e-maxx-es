@@ -1,5 +1,10 @@
 # Complejidad algorítmica
 
+> **Tabla de Contenidos**
+> * [Definición simple](#Definición simple)
+> * [Ejemplos básicos](#Ejemplos básicos)
+> * [Dato Freak](#Dato Freak)
+
 ## Definición simple
 
 La complejidad algorítmica corresponde a un área de estudio en el cual uno podrá determinar cuántos recursos utiliza un algoritmo, recursos como es el tiempo que utiliza y el espacio que utiliza. La complejidad se aplica para buscar la función que se comporte como el algoritmo, según el input que este reciba. Existe varias noticiones dentro de esta área: **o** o *"o chica"*, **O** o *"O grande"*, **$\theta$** o *"theta"*, **$\omega$** o *"Omega chica"* y **$\Omega$** o *"Omega grande"*. 
