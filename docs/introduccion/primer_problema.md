@@ -1,12 +1,12 @@
 # Nuestro primer problema!!
 
 > **Tabla de Contenidos**
-> * [4A Watermelon - Codeforces](#4A_Watermelon_-_Codeforces)
->   * [Enunciado](#Enunciado)
->   * [Input](#Input)
->   * [Output](#Output)
->   * [Análisis](#Análisis)
->   * [Código](#Código)
+> * [4A Watermelon - Codeforces](#4a-watermelon---codeforces)
+>   * [Enunciado](#enunciado)
+>   * [Input](#input)
+>   * [Output](#output)
+>   * [Análisis](#analisis)
+>   * [Código](#codigo)
 
 ## 4A Watermelon - Codeforces
 

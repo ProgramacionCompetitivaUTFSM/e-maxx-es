@@ -12,6 +12,8 @@ Atte. MrYhatoh
 
 > Updates
 
+* 05-04-2023 - Se arreglo href en las secciones
+* 05-04-2023 - Se cambio el formato de las secciones [colas](edd_lineales/colas.md), [pilas](edd_lineales/pilas.md) y [deque](edd_lineales/deque.md)
 * 04-04-2023 - Se agregó las secciones [colas](edd_lineales/colas.md) y [deque](edd_lineales/deque.md)
 * 04-04-2023 - Se agregaron tablas de contenidos en todos los documentos
 * 23-01-2022 - Se agregó en la sección de estructuras de datos lineales, el capitulo respecto a [las pilas](edd_lineales/pilas.md)

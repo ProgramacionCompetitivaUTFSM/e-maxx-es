@@ -1,11 +1,12 @@
 # Colas
 
 > **Tabla de Contenidos**
-> * [Definición](#Definición)
-> * [Utilización](#Utilización)
->   * [Declaración](#Declaración)
->   * [Operaciones](#Operaciones)
-> * [Problemas](#Problemas)
+> * [Definición](#definicion)
+> * [Utilización](#utilizacion)
+>   * [Declaración](#declaracion)
+>   * [Operaciones](#operaciones)
+>   * [Ejemplo](#ejemplo)
+> * [Problemas](#problemas)
 
 ![Queue GIF Animation](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdeepblade.com%2Fqueue-data-structure%2F&psig=AOvVaw3XXEmjOt5S7DbD3UB7m1s_&ust=1680670095506000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIih3pm2j_4CFQAAAAAdAAAAABAg)
 
@@ -25,7 +26,6 @@ La principal ventaja de la cola es el almacenamiento en memoria de forma contigu
 
 ```cpp
 #include<bits/stdc++.h>
- 
 using  namespace std;
   
 int main() {
@@ -52,6 +52,14 @@ int main() {
 
 ### Operaciones
 
+* `front()`: retorna el elemento que esta al principio de la cola.
+* `push(val)`: inserta `val` al principio de la cola. 
+* `pop()`: elimina el elemento al principio de la cola. **OJO**: si la cola esta vacía C++ tirará error.
+* `size()`: retorna la cantidad de elementos dentro de la cola.
+* `empty`: retorna verdadero si la cola esta vacía, en caso contrario retorna falso
+
+### Ejemplo
+
 ```cpp
 #include<bits/stdc++.h>
 
@@ -61,31 +69,23 @@ int main() {
 
 	queue<int> Q;
 
-	/* Para añadir un elemento a la cola se usa el método
-	push.
-	*/
-	Q.push(1);
-	
-  /* Para sacar el ultimo elemento ingresado se usa el método
-  pop.
-  */
-  Q.pop(); 
-	
-  /* Para ver cual es el valor del primer elemento ingresado
-	se usa el método front.
-	*/
-	Q.front();
-	
-	/* Para saber la cantidad de elemento dentro de la cola 
-	se usa el método size.
-	*/
-	Q.size();
-	
-	/* Para saber si la cola esta llena o no, se usa el método
-	empty.
-	*/
-	Q.empty();
-	
+  cout << "Tamanio actual de la cola: " << Q.size() << "\n";
+  
+  Q.push(2);
+  Q.push(1);
+  Q.push(123);
+  Q.push(1254);
+  Q.push(-13);
+  
+  cout << "Tamanio actual de la cola: " << Q.size() << "\n";
+  cout << "El elemento al principio de la cola es: " << Q.front() << "\n";
+  
+  // eliminar los elementos utilizando un while
+  // Por consola se vera: 2 1 123 1254 -13
+  while(!Q.empty()) {
+    cout << Q.front() << "\n";
+    Q.pop();
+  }
 	return  0;
 }
 ```

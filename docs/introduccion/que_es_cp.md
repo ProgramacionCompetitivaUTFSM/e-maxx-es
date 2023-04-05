@@ -1,11 +1,11 @@
 # ¿Qué es la Programación Competitiva?
 
 > **Tabla de Contenidos**
-> * [¿Qué es la Programación Competitiva?](#¿Qué_es_la_Programación_Competitiva?)
-> * [Juez online y Problemas](#Juez_online_y_Problemas)
->   * [Juez Online](#Juez_Online)
->   * [Los problemas](#Los_problemas)
-> * [Los lenguajes de programación en ProgComp](#Los_lenguajes_de_programación_en_ProgComp)
+> * [¿Qué es la Programación Competitiva?](#¿que-es-la-programacion-competitiva?)
+> * [Juez online y Problemas](#juez-online-y-problemas)
+>   * [Juez Online](#juez-online)
+>   * [Los problemas](#los-problemas)
+> * [Los lenguajes de programación en ProgComp](#los-lenguajes-de-programación-en-progcomp)
 
 
 ## ¿Qué es la Programación Competitiva?

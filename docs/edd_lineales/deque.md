@@ -2,11 +2,12 @@
 
 
 > **Tabla de Contenidos**
-> * [Definición](#Definición)
-> * [Utilización](#Utilización)
->   * [Declaración](#Declaración)
->   * [Operaciones](#Operaciones)
-> * [Problemas](#Problemas)
+> * [Definición](#definicion)
+> * [Utilización](#utilizacion)
+>   * [Declaración](#declaracion)
+>   * [Operaciones](#operaciones)
+>   * [Ejemplo](#ejemplo)
+> * [Problemas](#problemas)
 
 ## Definición
 
@@ -43,48 +44,48 @@ int main() {
 ```
 
 ### Operaciones
+
+* `push_front(val)`: inserta `val` al principio de la deque.
+* `push_back(val)`: inserta `val` al final de la deque
+* `pop_front()`: elimina el elemento al principio de la deque.
+* `pop_back()`: elimina el elemento al final de la deque.
+* `front()`: retorna el elemento que esta al principio de la deque.
+* `back()`: retorna el elemento que esta al final de la deque.
+* `size()`: retorna la cantidad de elemento dentro de la deque.
+* `empty()`: retorna verdadero si la deque esta vacía, en caso contrario retorna falso.
+
 ```cpp
 #include<bits/stdc++.h>
-
 using  namespace std;
 
 int main() {
 
-	deque<int> dq;
-
-  /* Para ingresar un elemento al principio de la deque se 
-  utiliza el método push_front */
-  dq.push_front(7);
+  deque<int> dq;
   
-  /* Para ingresar un elemento al final de la deque se utiliza
-  el método pop_front */ 
+  dq.push_front(2);
+  dq.push_front(3);
+  
+  cout << dq.front() <<  "\n";
+  
+  dq.push_back(-1);
+  
+  cout << dq.front() << "\n";
+  cout << dq.back() << "\n";
+  
   dq.push_back(2);
   
-  /* Para ver cual es el elemento al principio de la deque se utiliza
-  el método front */
-  dq.front();
-  
-  /* Para ver cual es elemento al final de la deque se utiliza
-  el método back */
-  dq.back();
-  
-  /* Para saber la cantidad de elementos dentro de la deque se utiliza
-  el método size */
-  dq.size();
-  
-  /* Para saber si la pila esta llena o no, se usa el método
-	empty.
-	*/
-	dq.empty();
-	
-  /* Para eliminar el elemento que se encuentra al principio de la deque se utiliza
-  el método pop_front */
-  dq.pop_front();
-  
-  /* Para eliminar el elemento que se encuentra al principio de la deque se utiliza
-  el método pop_back */
-  dq.pop_back();
-  
+  bool flag = true;
+  while(!dq.empty()) {
+    if(flag) {
+      flag = false;
+      cout << "front: " << dq.front() << "\n";
+      dq.pop_front();
+    } else {
+      flag = true;
+      cout << "back: " << dq.back() << "\n";
+      dq.pop_back();
+    }
+  }
 	return  0;
 }
 ```

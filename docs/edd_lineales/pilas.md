@@ -1,11 +1,12 @@
 # Stack
 
 > **Tabla de Contenidos**
-> * [Definición](#Definición)
-> * [Utilización](#Utilización)
->   * [Declaración](#Declaración)
->   * [Operaciones](#Operaciones)
-> * [Problemas](#Problemas)
+> * [Definición](#definicion)
+> * [Utilización](#utilizacion)
+>   * [Declaración](#declaracion)
+>   * [Operaciones](#operaciones)
+>   * [Ejemplo](#ejemplo)
+> * [Problemas](#problemas)
 
 ![Stack GIF Animation](https://miro.medium.com/max/1280/1*lb-0r80YYhcnoVcQ3HY-1g.gif)
 ## Definición
@@ -21,6 +22,7 @@ La principal ventaja de la pila es el almacenamiento en memoria de forma contigu
 ## Utilización
 
 ### Declaración
+
 ```cpp
 #include<bits/stdc++.h>
  
@@ -49,40 +51,41 @@ int main() {
 ```
 
 ### Operaciones
+
+* `top()`: retorna el elemento que esta encima de la pila.
+* `push(val)`: inserta `val` encima de la pila.
+* `pop()`: elimina el elemento que esta encima de la pila. **OJO**: si la cola esta vacía C++ tirará error.
+* `size()`: retorna la cantidad de elementos dentro de la pila.
+* `empty`: retorna verdadero si la pila esta vacía, en caso contrario retorna falso
+
+### Ejemplo
+
 ```cpp
 #include<bits/stdc++.h>
-
 using  namespace std;
 
 int main() {
 
 	stack<int> S;
 
-	/* Para añadir un elemento a la pila se usa el método
-	push.
-	*/
-	S.push(1);
-	 
-  /* Para sacar el ultimo elemento ingresado se usa el método
-  pop.
-  */
-  S.pop();
+  cout << "Tamanio actual de la cola: " << S.size() << "\n";
   
-	/* Para ver cual es el valor del ultimo elemento ingresado
-	se usa el método top.
-	*/
-	S.top();
-	
-	/* Para saber la cantidad de elemento dentro de la pilas
-	se usa el método size.
-	*/
-	S.size();
-	
-	/* Para saber si la pila esta llena o no, se usa el método
-	empty.
-	*/
-	S.empty();
-	
+  S.push(2);
+  S.push(1);
+  S.push(123);
+  S.push(1254);
+  S.push(-13);
+  
+  cout << "Tamanio actual de la pila: " << S.size() << "\n";
+  cout << "El elemento encima de la pila: " << S.top() << "\n";
+  
+  // eliminar los elementos utilizando un while
+  // Por consola se vera: -13 1254 123 1 2
+  while(!S.empty()) {
+    cout << S.top() << " ";
+    S.pop();
+  }
+  cout << "\n";
 	return  0;
 }
 ```
