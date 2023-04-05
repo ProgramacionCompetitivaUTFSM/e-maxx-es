@@ -1,18 +1,18 @@
 # Arreglos
 
 > **Tabla de Contenidos**
-> * [Definición](#definiciin)
-> * [Arreglos estáticos](#arreglos_estaticos)
+> * [Definición](#definicion)
+> * [Arreglos estáticos](#arreglos-estaticos)
 >   * [Declaración](#declaracion)
->   * [Acceso y almacenamiento](#acceso_y_almacenamiento)
-> * [Arreglos dinámicos](#arreglos_dinamicos)
+>   * [Acceso y almacenamiento](#acceso-y-almacenamiento)
+> * [Arreglos dinámicos](#arreglos-dinamicos)
 >   * [Declaración](#declaracion)
->   * [Acceso y almacenamiento](#acceso_y_almacenamiento)
->   * [Agregar al final/quitar del final](#agregar_al_final/quitar_del_final)
->   * [Insertar/eliminar en cualquier posicion del vector](#insertar/eliminar_en_cualquier_posicion_del_vector)
-> * [Funciones útiles](#funciones_utiles)
->   * [Ordenar elementos](#ordenar_elementos)
->   * [Buscar elementos](#buscar_elementos)
+>   * [Acceso y almacenamiento](#acceso-y-almacenamiento)
+>   * [Agregar al final/quitar del final](#agregar-al-final/quitar-del-final)
+>   * [Insertar/eliminar en cualquier posicion del vector](#insertar/eliminar-en-cualquier-posicion-del-vector)
+> * [Funciones útiles](#funciones-utiles)
+>   * [Ordenar elementos](#ordenar-elementos)
+>   * [Buscar elementos](#buscar-elementos)
 > * [Referencias](#referencias)
 > * [Problemas](#problemas)
 
