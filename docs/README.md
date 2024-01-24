@@ -13,7 +13,7 @@ Atte. MrYhatoh
 > Updates
 
 * 24-01-2024 - Se agregó la sección [conjuntos](edd_no_lineales/set.md)
-* 05-04-2023 - Se arreglo href en las secciones
+* 05-04-2023 - Se arregló href en las secciones
 * 05-04-2023 - Se cambio el formato de las secciones [colas](edd_lineales/colas.md), [pilas](edd_lineales/pilas.md) y [deque](edd_lineales/deque.md)
 * 04-04-2023 - Se agregó las secciones [colas](edd_lineales/colas.md) y [deque](edd_lineales/deque.md)
 * 04-04-2023 - Se agregaron tablas de contenidos en todos los documentos

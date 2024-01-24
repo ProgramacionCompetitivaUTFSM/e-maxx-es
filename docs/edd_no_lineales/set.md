@@ -40,7 +40,7 @@ int main(){
 
   // aquí se inicializa un conjunto de conjuntos de enteros
   set< set< int > > con_con_int;
-	return 0;
+  return 0;
 }
 ```
 
@@ -194,6 +194,8 @@ int main() {
     cout << e << " ";
   }
   cout << "\n";
+  return 0;
+}
 ```
 
 ## Conjuntos Desordenados
