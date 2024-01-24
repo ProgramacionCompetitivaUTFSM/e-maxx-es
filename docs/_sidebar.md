@@ -3,12 +3,12 @@
 	- [Complejidad Algorítmica](/introduccion/complejidad.md)
 	- [Nuestro primer problema!!](/introduccion/primer_problema.md)
 	- [Más problemas!!!](/introduccion/mas_problemas.md)
-- Estructuras de datos lineales
+- EDDs lineales
 	- [Arreglos](/edd_lineales/arreglos.md)
 	- [Pilas](/edd_lineales/pilas.md)
 	- [Colas](/edd_lineales/colas.md)
 	- [Deque](/edd_lineales/deque.md)
-- Estructuras de datos no lineales
+- EDDs no lineales
   - [Conjuntos](./edd_no_lineales/set.md)
   - [Diccionarios](./edd_no_lineales/map.md)
 - Álgebra
