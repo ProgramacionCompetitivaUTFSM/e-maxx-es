@@ -8,9 +8,9 @@
 	- [Pilas](/edd_lineales/pilas.md)
 	- [Colas](/edd_lineales/colas.md)
 	- [Deque](/edd_lineales/deque.md)
-- Álgebra
-	- [Exponenciación Binaria](/algebra/exponenciacion-binaria.md)
-	- [Algoritmo Euclidiano](/algebra/algoritmo-euclidiano.md)
 - Estructuras de datos no lineales
   - [Conjuntos](./edd_no_lineales/set.md)
   - [Diccionarios](./edd_no_lineales/map.md)
+- Álgebra
+	- [Exponenciación Binaria](/algebra/exponenciacion-binaria.md)
+	- [Algoritmo Euclidiano](/algebra/algoritmo-euclidiano.md)
