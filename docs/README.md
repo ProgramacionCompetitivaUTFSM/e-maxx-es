@@ -12,6 +12,7 @@ Atte. MrYhatoh
 
 > Updates
 
+* 25-01-2024 - Se agregó la sección [diccionarios](edd_no_lineales/map.md). Se arreglaron ciertos detalles de redacción
 * 24-01-2024 - Se agregó la sección [conjuntos](edd_no_lineales/set.md)
 * 05-04-2023 - Se arregló href en las secciones
 * 05-04-2023 - Se cambio el formato de las secciones [colas](edd_lineales/colas.md), [pilas](edd_lineales/pilas.md) y [deque](edd_lineales/deque.md)
@@ -28,7 +29,7 @@ Atte. MrYhatoh
 > TO DO
 
 * Revisar la introducción por fallas
-* Revisar EDD lineas por fallas de ortografías o cosas
-* Estructuras de datos no líneales - falta diccionarios
+* Revisar EDD lineales por fallas de ortografías o cosas
+* Revisar EDD no Lineales REDACCIÓN
 * Estructuras que no hacen parte de la librería STL
 * Y más

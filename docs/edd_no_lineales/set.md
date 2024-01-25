@@ -23,7 +23,7 @@ Dentro de la familia de los conjuntos existen dos tipos: ordenados y no ordenado
 
 ## Conjuntos Ordenados
 
-Los conjuntos ordenados tienen la carácteristica que a medida que se van insertando los elementos, esto los va ordenando según su propia función de comparaciónEstos almacenan los elementos utilizando una estructuras de datos llamada [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree), esta estructura consiste en un tipo de AVL, no es importante que sepan el detalle, pero nos será útil para después.
+Los conjuntos ordenados tienen la carácteristica que a medida que se van insertando los elementos, esto los va ordenando según su propia función de comparación. Estos almacenan los elementos utilizando una estructuras de datos llamada [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree), esta estructura consiste en un tipo de AVL, no es importante que sepan el detalle, pero nos será útil para después.
 
 ### Declaración
 
@@ -158,7 +158,7 @@ int main() {
 
 ### Recorrer el conjunto 
 
-Gracias a C++, se puede recorrer todos los elementos del conjunto de manera ordenad (esto debido a que estan ordenados)
+Gracias a C++, se puede recorrer todos los elementos del conjunto de manera ordenada.
 
 ```cpp
 #include<bits/stdc++.h> 
@@ -242,7 +242,7 @@ int main() {
 
 Ahora que se conocen las dos formas de utilizar conjunos en C++, analizemos las complejidades. 
 
-Comenzando por los conjuntos ordenados, usan una implementación de *Red-Black Tree* y este es un árbol binario balanceado, las complejidades de las operaciones se rigirán en cuánto nos costaría recorrer una rama del árbol para poder buscar/insertar/eliminar. Es por esto que las operaciones buscar/insertar/eliminar son todos $O(log n)$ en peor caso, esto gracias a usar un *Red-Black Tree*.
+Comenzando por los conjuntos ordenados, usan una implementación de *Red-Black Tree* y este es un árbol binario balanceado, las complejidades de las operaciones se regirán en cuánto nos costaría recorrer una rama del árbol para poder buscar/insertar/eliminar. Es por esto que las operaciones buscar/insertar/eliminar son todos $O(log n)$ en peor caso.
 
 En cambio, los conjuntos desordenados para insertar/buscar elementos lo realiza a través de una función de hashing, gracias a esto las operaciones se pueden hacer en tiempo promedio $O(1)$, pero puede llegar a tener peor caso $O(n)$, donde $n$ es la cantidad de elementos en el conjunto. Entonces, se debe usar con preocupación, cuando los elementos tienden a ser muy parecidos puede causar que las operaciones sean más lentas.
 
